@@ -250,6 +250,7 @@ p{
 	float:left;
 	padding: 5px;
 	width: 50px;
+	height: 50px;
 }
 
 .courseTable tr :last-child{
@@ -257,6 +258,10 @@ p{
 }
 
 .experienceList{
+	float: right;
+	margin-left: 50px;
+	width: 100%;
+
 	list-style: none;
 }
 
@@ -266,7 +271,6 @@ p{
 
 .experienceItem .time{
 	width: 35px;
-	float: right;
 
 	font-size: 10px;
 
@@ -357,6 +361,7 @@ p{
 	font-size: 20px;
 
 	-webkit-transform: rotate(270deg);
+	-moz-transform:rotate(270deg); 
 }
 
 .barWrapper p span.subscript{
