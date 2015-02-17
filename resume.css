@@ -102,7 +102,7 @@ h1{
 }
 
 .leftColumn{
-	width: 215px;
+	width: 220px;
 	float: left;
 }
 
@@ -216,9 +216,9 @@ p{
 	color: rgba(71,169,192,1);
 }
 
-.interests .bullshit .quote.cq{
+.interests .mumbojumbo .quote.cq{
 	top: 175px;
-	right: 68px;
+	right: 130px;
 	font-size: 25px;
 
 	color: rgba(71,169,192,1);
