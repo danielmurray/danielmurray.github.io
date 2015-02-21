@@ -335,7 +335,7 @@ p{
 }
 
 .barWrapper{
-	width: 36px;
+	width: 34.5px;
 	height: 100%;
 	float:left;
 	margin-right:10px;
@@ -372,7 +372,7 @@ p{
 	font-size: 6px;
 }
 
-.bar.java{
+.bar.javascript{
 	/*background-color: green;*/
 	height: 95%;
 }
@@ -404,8 +404,13 @@ p{
 
 .bar.linux{
 	/*background-color: blue;*/
-	height: 52%;
+	height: 60%;
 
+}
+
+.bar.java{
+	/*background-color: green;*/
+	height: 53%;
 }
 
 .bar.lua{
@@ -415,12 +420,12 @@ p{
 
 .bar.adobe{
 	/*background-color: green;*/
-	height: 35%;
+	height: 39%;
 }
 
 .bar.esp{
 	/*background-color: blue;*/
-	height: 35%;
+	height: 32%;
 }
 
 .bar.hin{
