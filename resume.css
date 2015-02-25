@@ -85,6 +85,11 @@ body {
 	background-color: rgba(71,169,192,1);
 }
 
+.contactinfo .not_today_spambot{
+	margin-top: 2px;
+	height: 15px;
+}
+
 .contactinfo td{
 	font-size: 12px;
 	font-family: 'opensans'	
