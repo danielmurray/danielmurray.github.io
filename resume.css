@@ -423,15 +423,22 @@ p{
 	height: 45%;
 }
 
+.bar.deu{
+	/*background-color: blue;*/
+	height: 39%;
+}
+
 .bar.adobe{
 	/*background-color: green;*/
-	height: 39%;
+	height: 36%;
 }
 
 .bar.esp{
 	/*background-color: blue;*/
-	height: 32%;
+	height: 18%;
 }
+
+
 
 .bar.hin{
 	/*background-color: blue;*/
