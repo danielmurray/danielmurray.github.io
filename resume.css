@@ -320,39 +320,39 @@ p{
 	width: 90%;
 }
 
-.gaugeValue.css{
+.gaugeValue.sa{
 	width: 85%;
 }
 
-.gaugeValue.ca{
+.gaugeValue.da{
 	width: 80%;
+}
+
+.gaugeValue.hi{
+	width: 75%;
 }
 
 .gaugeValue.py{
-	width: 80%;
-}
-
-.gaugeValue.ap{
-	width: 75%;
+	width: 70%;
 }
 
 .gaugeValue.zh{
-	width: 75%;
+	width: 70%;
 }
 
-.gaugeValue.git{
-	width: 55%;
+.gaugeValue.ml{
+	width: 60%;
 }
 
 .gaugeValue.linux{
-	width: 50%;
+	width: 55%;
 }
 
 .gaugeValue.ux{
 	width: 50%;
 }
 
-.gaugeValue.pe{
+.gaugeValue.es{
 	width: 45%;
 }
 
