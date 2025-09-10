@@ -23,7 +23,7 @@
 
 body {
 	color: rgba(30, 30, 30, 1);
-	font-size:14px;
+	font-size:12px;
 }
 
 .docWrapper{
@@ -41,18 +41,16 @@ body {
 	padding: 50px;
 }
 
+.header{
+
+}
+
 .content{
 	width: 100%;
 }
 
-.header{
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-}
-
 .name{
-	width: 225px;
+	width: 100%;
 	height: 66px;
 
 	background-color: rgba(71,169,192,1);
@@ -67,6 +65,9 @@ body {
 }
 
 .contactinfo{
+	float:right;
+	margin: 10px 0;
+	width: 225px;
 }
 
 .contactinfo .icon{
@@ -81,8 +82,7 @@ body {
 
 .contactinfo td{
 	font-size: 12px;
-	font-family: 'opensans';
-	text-align: end;
+	font-family: 'opensans'
 }
 
 
@@ -112,19 +112,26 @@ h1{
 	width: 100%;
 }
 
-.category {
-	display: flex;
-	flex-direction: column;
+.leftColumn .category{
 }
+
+.interests.category{
+	font-family:"carlson";
+	margin-top: 0px;
+}
+
+.category{
+}
+
 .category ul{
 	list-style-type: disc;
 	padding: 0 0 0 10px;
 	margin: 5px 0 0 0px;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .category ul li{
-	font-size: 14px;
+	font-size: 12px;
 	margin: 0 0 5px 0;
 	font-family: carlson;
 }
@@ -137,11 +144,7 @@ h1{
 	font-family: 'opensans';
 	font-size: 17px;
 	border-bottom: 2px solid rgba(120, 120, 120, 1);
-	margin: 0 0 10px 0;
-}
-
-.category.experience h2{
-	margin: 15px 0 10px 0;
+	margin: 10px 0 10px 0;
 }
 
 .category h3{
@@ -285,25 +288,9 @@ p{
 	padding: 0 0 0 10px;
 }
 
-.skillList {
-	padding-left: 10px;
-}
 
-.skillItem td{
-	display: flex;
-	align-items: baseline;
-	gap: 4px;
-}
-
-.skillItem .skillCategory{
-	display: flex;
-	color: rgba(71,169,192,1);
-	font-family: 'opensans';
-	font-size: 14px;
-}
-
-.skillItem .skills{
-	font-size: 14px;
+.skills.category{
+	position: relative;
 }
 
 .skill{
